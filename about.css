@@ -1,0 +1,78 @@
+.about2nd {
+    width: 100%;
+
+}
+.aboutbar {
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+    padding-left: 90px;
+    background-color: rgba(128, 128, 128, 0.355);
+}
+.aboutbar a{
+    text-decoration: none;
+}
+.aboutbar a:hover{
+    text-decoration: underline;
+}
+.bigsale{
+    padding-top: 60px;
+    padding-left: 90px;
+}
+#aboutdetails{
+
+    padding-left: 170px;
+}
+#aboutdetails h2 {
+    font-size: 40px;
+}
+#aboutdetails p{
+    margin-top: 30px;
+    line-height: 30px;
+    color: gray;
+}
+.about3sec{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+#about3sec2{
+    width: 100%;
+    text-align: center;
+}
+.team{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-around;
+}
+#cardteam{
+    width: 20%;
+    text-align: center;
+}
+#cardteam img{
+    width: 60%;
+    border-radius: 100px;
+
+}
+#cardteam h3{
+    margin-top: 20px;
+    color: rgb(66, 65, 65);
+}
+#cardteam small{
+    color: rgba(128, 128, 128, 0.479);
+}
+#cardteam p{
+    margin-top: 30px;
+    line-height: 25px;
+    color: gray;
+}
+
+.thirdrdsec{
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}

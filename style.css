@@ -1,0 +1,531 @@
+*{
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height: 200px;
+}
+.firstNav{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+#search{
+    width: 20%;
+    height: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+#search input{
+    border: 0;
+    margin-left:-260px ;
+}
+
+#search i{
+    color: gray;
+}
+#myname{
+    width: 20%;
+    color: rgb(118, 113, 113);
+
+}
+#myname h2{
+    border: 3px solid rgb(66, 66, 66);
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+
+}
+#icons{
+    width: 10%;
+    height: 20px;
+}
+.iconsi{
+    display: flex;
+    color: gray;
+
+}
+
+#icons a{
+        cursor: pointer;
+    text-align: center; 
+    color: gray;
+}
+#icons a:hover{
+    color: black;
+}
+.seconedNav{
+    width: 100%;
+}
+
+#lis{
+    margin-top: 10px;
+    width: 60%;
+    margin-left: 20%;
+}
+select{
+    border: 0;
+}
+
+#lis ul{
+
+    text-align: center;
+    display: flex;
+    padding-left: 0;
+    list-style-type: none;
+}
+#lis ul li{
+    text-align: center;
+    
+}
+#lis ul li a{
+    color: rgb(81, 81, 81);
+    text-decoration: none;
+}
+#lis ul li a:hover{
+    color: rgb(114, 114, 221);
+}
+/*2nddd sectionnn */
+.secdsec{
+
+    width: 100%;
+    height: 600px;
+    background-image: url(images/hero_1..jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+
+}
+.right{
+    width: 40%;
+    height: 100%;
+    float: right;
+    padding-top: 150px;
+}
+.right h1{
+    font-size: 50px;
+    max-width: 400px;
+}
+.right p{
+    max-width: 450px;
+    line-height: 35px;
+}
+.right button{
+    margin-top: 30px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color: rgb(138, 66, 210);
+}
+.right button:hover{
+    transform: scale(1.1); 
+    box-shadow: 1px 5px rgba(0, 0, 0, 0.385);
+    background-color: rgb(117, 33, 201);
+}
+/* 3rddddddd sectiooonnnnn */
+
+.thirdrdsec{
+    width: 100%;
+    height: 300px;
+    
+}
+.ab{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+.card{
+    width: 30%;
+    height: 80%;
+    display: flex;
+}
+#iconplus{
+    width: 20%;
+    height: 100%;
+    margin-right: 10px;
+}
+#iconplus i{
+    color:  rgb(138, 66, 210);
+    font-size: 60px; 
+    text-align: center;   
+}
+#truck{
+    width: 80%;
+    height: 100%;
+}
+#truck h3{
+    width: 100%;
+    height: 40px;
+    color:rgb(59, 59, 59);
+
+}
+#truck p{
+    width: 100%;
+    height: 100%;
+    color: gray;
+    line-height: 25px;
+}
+/* 4thhhh  sectiooonnn */
+.cat{
+    width: 100%;
+    height: 800px;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.catdetails{
+    width: 30%;
+    height: 80%;
+    position: relative;
+    transition: width 1s, height 2s;
+
+}
+.catdetails:hover{
+        transform: scale(1.1); 
+        width: 35%;
+        height: 85%;
+    }
+.catdetails img{
+    color: black;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+
+#cat5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.215) ;
+}
+#cat5 h2{
+    font-size: 50px;
+}
+
+/* 5thhhh sectioooooonnnnnnn */
+
+.fourthsec{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(216, 217, 217, 0.459);
+}
+#h2{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+
+#h2 h2{
+    font-size: 40px;
+    color: rgb(65, 65, 65);
+}
+.productssec{
+    width: 100%;
+    height: 500px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+
+    justify-content: space-between;
+}
+#card{
+    width: 30%;
+    height: 450px;
+    background-color: white;
+}
+#card img{
+    width: 100%;
+    height: 65%;
+
+}
+#carddesc{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+#carddesc h4{
+    color: rgb(138, 66, 210);
+    font-size: larger;
+
+}
+#carddesc small{
+    margin-top: 10px;
+    color: gray;
+    font-size: 20px;
+}
+#carddesc h1{
+    margin-top: 10px;
+    color: rgb(138, 66, 210);
+
+}
+.arrows{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 6thhhhh sectiooooonnnnn */
+
+.sixthsec{
+    width: 100%;
+    height: 700px;
+}
+.bigsale{
+    height: 100%;
+    padding-left: 50px ;
+    padding-right: 50px;
+    display: flex;
+}
+#imagsale image{
+    width: 100%;
+    height: 500px;
+}
+#imagesdetails{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 90px;   
+    padding-left: 100px;
+    padding-right: 100px; 
+}
+#imagesdetails h2{
+    color: rgb(138, 66, 210);
+    margin-bottom: 10px;
+}
+#imagesdetails small{
+    color: rgba(128, 128, 128, 0.64);
+}
+#imagesdetails strong{
+    color: rgb(138, 66, 210);
+
+}
+#imagesdetails p{
+    color: rgb(103, 99, 99);
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+#imagesdetails  button{
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color: rgb(138, 66, 210);
+}
+#imagesdetails button:hover{
+    transform: scale(1.1); 
+    box-shadow: 1px 5px rgba(146, 146, 146, 0.164);
+    background-color: rgb(117, 33, 201);
+}
+/*ffooooooooooottteerrr*/
+footer{
+    width: 100%;
+    height: 550px;
+}
+.fot1{
+    padding-top: 30px;
+    width: 100%;
+    height: 300px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.table1{
+    width: 48%;
+    height: 100%;
+    padding: 0px;
+    display: flex;
+    
+}
+.table1 ul{
+    height: 100%;
+    list-style-type: none;
+
+}
+.table1 ul strong{
+    color: rgb(62, 62, 62);
+}
+.table1 ul li{
+        padding-top: 20px;
+}
+.table1 ul li a{
+    color: gray;
+    text-decoration: none;
+}
+.table1 ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+.secndpart{
+    width: 23%;
+    height: 100%;
+    padding-top: 20px;
+
+}
+.secndpart ul{
+    height: 100%;
+    list-style-type: none;
+
+}
+.secndpart ul strong{
+    color: rgb(62, 62, 62);
+}
+.secndpart ul li h3 {
+        margin-top: 20px;
+
+}
+.secndpart ul li img{
+    margin-top: 20px;
+}
+.secndpart ul li small{
+    color: gray;
+}
+.secndpart ul li a{
+    color: rgb(138, 66, 210);
+    text-decoration: none;
+}
+.secndpart ul li a:hover{
+    text-decoration: underline;
+}
+.thirdrdpart{
+    width: 23%;
+    height: 100%;
+
+}
+.thirdrdpart ul{
+    height: 100%;
+    list-style-type: none;
+    
+
+}
+.thirdrdpart ul li{
+
+    max-width: 300px;
+    display: flex;
+}
+.thirdrdpart ul li i{
+    color: rgb(138, 66, 210);
+
+    width: 30px;
+}
+.thirdrdpart ul strong{
+    color: rgb(62, 62, 62);
+}
+.thirdrdpart ul li{
+        padding-top: 20px;
+}
+.sub{
+    margin-top: 100px;
+}
+.sub h2 {
+    margin-bottom: 15px ;
+}
+#serach2{
+    width: 100%;
+    display: flex;
+    height: 60px;
+}
+#serach2 input{
+    width: 70%;
+}
+#serach2 button{
+    width: 30%;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color: rgb(138, 66, 210);
+}
+
+#serach2 button:hover{
+    transform: scale(1.1); 
+    box-shadow: 1px 5px rgba(146, 146, 146, 0.164);
+    background-color: rgb(117, 33, 201);
+}
+
+
+.endfot{
+    color: gray;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    
+}
+.endfot small {
+    width: 100%;
+}
+.endfot a{
+    text-decoration: none;
+    color: rgb(138, 66, 210);
+}
+
+/* thanks*/
+.thnks{
+    width: 100%;
+    height: 600px;
+}
+.thaanks{
+    padding-top: 180px;
+    text-align: center;
+}
+.thaanks i {
+    font-size: 50px;
+    color: green;
+    
+}
+.thaanks h1{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.thaanks small{
+    margin-top: 10px;
+    color: gray;
+}
+
+
+.thaanks button{
+    margin-top: 30px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color: rgb(138, 66, 210);
+}
+.thaanks button:hover{
+    transform: scale(1.1); 
+    box-shadow: 1px 5px rgba(0, 0, 0, 0.385);
+    background-color: rgb(117, 33, 201);
+}

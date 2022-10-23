@@ -1,0 +1,65 @@
+
+#aboutdetails h3{
+    margin-top: 20px;
+    color: purple ;
+}
+
+#aboutdetails input {
+    margin-top: 10px;
+ width: 5%;
+}
+#aboutdetails label{
+     font-weight: 700;
+
+}
+
+
+#aaaa{
+    margin-top: 20px;
+    border: 1px solid gray;
+    width: 100px;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#aaaa p{
+    padding-bottom: 27px;
+}
+#aaaa a{
+    height: 100%;
+    margin: 0;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#aaaa a:hover{
+    color: white;
+    background-color: purple;
+
+}
+
+#aboutdetails button{
+    margin-top: 30px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color: rgb(138, 66, 210);
+}
+#aboutdetails button a{
+    text-decoration: none;
+    color: white;
+}
+#aboutdetails button:hover{
+    transform: scale(1.1); 
+    box-shadow: 1px 5px rgba(0, 0, 0, 0.385);
+    background-color: rgb(117, 33, 201);
+}
+
+.fourthsec {
+    margin-top: 50px;
+} 

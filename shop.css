@@ -1,0 +1,111 @@
+.shop {
+    width: 100%;
+    height: 2000px;
+
+}
+
+.bigestpart {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 50px;
+    background-color: rgba(128, 128, 128, 0.136);
+    display: flex;
+
+}
+
+.liftsideee {
+    width: 30%;
+}
+.firstlist{
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    background-color: white;
+    border: 1px solid gray ;
+    height: 150px;
+}
+.firstlist ul{
+    list-style-type: none;
+}
+.firstlist ul li{
+    margin: 10px;
+}
+.firstlist ul li a{
+    text-decoration: none;
+}
+
+.seclisst{
+    width: 80%;
+    border: 1px solid gray;
+    height: 550px;
+    background-color: white;
+    padding: 10px;
+
+}
+.seclisst ul{
+    list-style-type: none;
+        padding-top: 20px;
+}
+.seclisst ul li{
+    padding-top: 20px;
+}
+
+
+
+
+
+
+/*-----*/
+
+.productssec {
+    margin-top: 50px;
+}
+.productssec #card{
+    width: 280px;
+    height: 400px;
+}
+.productssec #card img{
+    height: 250px ;
+}
+.all44{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.showall{
+    width: 100%;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#hh33{
+    width: 10%;
+}
+#selectt {
+    width: 20%;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+#selectt select{
+    width: 47%;
+    padding: 10px ;
+    background-color: rgba(128, 128, 128, 0.473) ;
+}
+#selectt select:hover{
+    background-color: gray;
+}
+#selectt select option{
+    margin-top: 10px;
+    background-color: white;
+}
+
+.cat{
+
+    padding-top: 100px;
+}
+.productssec a{
+    text-decoration: none;
+}
